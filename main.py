@@ -2,6 +2,7 @@ import os
 import datetime
 import random
 #####opcional####
+import copy
 
 ###################
 import aiohttp
@@ -334,6 +335,44 @@ async def reset(ctx):
 
     await ctx.message.reply(f"Character deleted.")
     await create(ctx)
+###################añadir correo xd###################
+roster = {} #people with profiles
+#initialize inbox
+@client.command(aliases= ['mkbox', 'new'])
+async def _mkinbox(ctx):
+  author = str(ctx.author)
+  if (not (author in roster)):
+    roster[author] = Profile.Profile(author)
+  else:
+    await ctx.send("Inbox already exist")
+
+#how many messages
+@client.command(aliases= ['box', 'inbox'])
+async def _inbox(ctx):
+  author = str(ctx.author)
+  if (author in roster):
+    messages = str(len(roster[author].get_inbox()))
+    await ctx.send(messages + " message(s)")
+  else:
+    await ctx.send("Inbox does not exist")
+    
+#send messages
+@client.command(aliases= ['send', 's'])
+async def _send(ctx, *, message):
+  author = message.split(' ', 1)[0]
+  if (author in roster):
+    roster[author].add_message(message.split(' ', 1)[1])
+  await ctx.message.delete()
+  
+#read messages
+@client.command(aliases= ['read', 'r'])
+async def _open(ctx):
+  author = str(ctx.author)
+  if (author in roster) and (len(roster[author].get_inbox()) != 0):
+    message = str(roster[author].read_message())
+    await ctx.send("anonymous: " + message)
+  else:
+    await ctx.send("No message(s) available")
 
 
 

@@ -40,162 +40,164 @@ ban ---> para banear a alguien
   
   canales ---> para ver los canales
   
-  candy        Pilla el caramelo antes que nadie!
+  candy ---> Pilla el caramelo antes que nadie!
   
-  candyboard   El ranking de top candelers!
+  candyboard ---> El ranking de top candelers!
   
-  caraocruz    cara o cruz desarrollando metodo banco
+  caraocruz ---> cara o cruz desarrollando metodo banco
   
-  chatbot      para chatear con el bot
+  chatbot ---> para chatear con el bot
   
-  clear        Borra el total de mensajes especificados (predet = 1)
+  clear ---> Borra el total de mensajes especificados (predet = 1)
   
-  coinflip     para una competencia del coinflip
+  coinflip ---> para una competencia del coinflip
   
-  comprar      accion de comprar en la tienda
+  comprar ---> accion de comprar en la tienda
   
-  dab          para hacer un dab
+  dab ---> para hacer un dab
   
-  deposit      depositar dinero de la cartera al banco
+  deposit ---> depositar dinero de la cartera al banco
   
-  desencriptar para desencriptar mensajes encriptados
+  desencriptar ---> para desencriptar mensajes encriptados
   
-  divide       operacion dividir
+  divide ---> operacion dividir
   
-  dm           para mandar dm a alguien
+  dm ---> para mandar dm a alguien
   
-  duelo        Duel 1vs1 del oeste que a la conta de 3 qui apreti avans l'esp...
+  duelo ---> Duel 1vs1 del oeste que a la conta de 3 qui apreti avans l'esp...
   
-  encriptar    para encriptar el mensaje
+  encriptar ---> para encriptar el mensaje
   
-  encuesta     para hacer una encuesta
+  encuesta ---> para hacer una encuesta
   
-  enviar       enviar dinero a alguien en especifico
+  enviar ---> enviar dinero a alguien en especifico
   
-  fuck         chutar a alguien
+  fuck ---> chutar a alguien
   
-  fuera        puedes echar a alguien pero con contra
+  fuera ---> puedes echar a alguien pero con contra
   
-  fumeteo      aver quantos calos aguantas campeeon
+  fumeteo ---> aver quantos calos aguantas campeeon
   
-  gamble       Apuesta tu dinero para ganar (o perder ;) )la misma cantidad 
+  gamble ---> Apuesta tu dinero para ganar (o perder ;) )la misma cantidad 
 
-  hack         para simular hackeo(incompleto)
+  hack ---> para simular hackeo(incompleto)
   
-  help         Shows this message
+  help ---> Shows this message
   
-  info         para ver info del usuario
+  info ---> para ver info del usuario
   
-  lee          beemovie.txt
+  lee ---> beemovie.txt
   
-  level        
+  level --->     
   
-  levelboard   
+  levelboard --->   
   
-  lugar        definir lugar pieza tresenralla
+  lugar ---> definir lugar pieza tresenralla
   
-  matar        para matar a alguien
+  matar ---> para matar a alguien
   
-  meme         envia un meme divertido
+  meme ---> envia un meme divertido
   
-  miembros     para mostrar el total de miembros en el canal
+  miembros ---> para mostrar el total de miembros en el canal
   
-  monopolio    rango de gente mas rica del server
+  monopolio ---> rango de gente mas rica del server
   
-  morir        para suicidarse
+  morir ---> para suicidarse
   
-  mp           maquina medidora de nepes
+  mp ---> maquina medidora de nepes
   
-  multiplica   operacion multiplicar
+  multiplica ---> operacion multiplicar
   
-  nasa         para solicitar imagen de la nasa
+  nasa ---> para solicitar imagen de la nasa
   
-  op       
+  op ---> 
   
-  pain         en desarrollo
+  pain ---> en desarrollo
   
-  passalabomba 
+  passalabomba --->  
   
-  pegar        para pegar a alguien
+  pegar ---> para pegar a alguien
   
-  pescar       nos vamos de pesca
+  pescar ---> nos vamos de pesca
   
-  ping         Pingea al bot y devuelve pong y los ms
+  ping ---> Pingea al bot y devuelve pong y los ms
   
-  pokequiz     el mas rapido en responder se lleva premio!
+  pokequiz ---> el mas rapido en responder se lleva premio!
   
-  pregunta     Le haces una pregunta al bot
+  pregunta ---> Le haces una pregunta al bot
   
-  propuesta    hacer propuestas para grupo
+  propuesta ---> hacer propuestas para grupo
   
-  pv           prueva o verdad
+  pv ---> prueva o verdad
   
-  rela         para medir porcentaje de relacion en
+  rela ---> para medir porcentaje de relacion en
   
-  restar       operacion restar
+  restar ---> operacion restar
   
-  retirar      para retirar dinero del banco para ponero a la cartera
+  retirar ---> para retirar dinero del banco para ponero a la cartera
   
-  revista      
+  revista ---> 
   
-  robar        robar dinero de la cartera
+  robar ---> robar dinero de la cartera
   
-  rr           Remake de la ruleta russa
+  rr ---> Remake de la ruleta russa
   
-  rrr          Te avates en duelo con el usuario 
+  rrr ---> Te avates en duelo con el usuario 
 especificado. Que gane el mejor
 
-  ruleta       ruleta del casino (en desarrollo)
+  ruleta ---> ruleta del casino (en desarrollo)
   
-  say          Haces que el bot diga algo
+  say ---> Haces que el bot diga algo
   
-  sayd         Esto es para admins, no deberias haber visto esta descripcion lol
+  sayd ---> Esto es para admins, no deberias haber visto esta descripcion lol
   
-  sec          secuestrar alguien(broken)
+  sec ---> secuestrar alguien(broken)
   
-  shoot        RULETA RUSSAAAAAAAA
+  shoot ---> RULETA RUSSAAAAAAAA
   
-  shot         para tomar ronda de chupitos
+  shot ---> para tomar ronda de chupitos
   
-  slot         slots del casino
+  slot ---> slots del casino
   
-  slots        slots del casino
+  slots ---> slots del casino
   
-  soli         para solicitar dinero
+  soli ---> para solicitar dinero
   
-  sorpresa     nada que deberia preocuparte xd
+  sorpresa ---> nada que deberia preocuparte xd
   
-  spam         para hacer spam
+  spam ---> para hacer spam
   
-  spotify      para saber info de spotify de alguien
+  spotify ---> para saber info de spotify de alguien
   
-  sumar        operacion sumar
+  sumar ---> operacion sumar
   
-  sup          texto en negrita
+  sup ---> texto en negrita
   
-  tarea        para añadir tareas pendeintes
+  tarea ---> para añadir tareas pendeintes
   
-  tax          para sacar taxas de Kickcoins
+  tax ---> para sacar taxas de Kickcoins
   
-  tiempo       sirve para mostrar el tiempo de la ciudad
+  tiempo ---> sirve para mostrar el tiempo de la ciudad
   
-  tienda       tienda del casino
+  tienda ---> tienda del casino
   
-  tonto        le dices algo y te va a devolver el insulto
+  tonto ---> le dices algo y te va a devolver el insulto
   
-  traducir     traductor de palabras
+  traducir ---> traductor de palabras
   
-  transfer     transferir Kickcoins
+  transfer ---> transferir Kickcoins
   
-  tresenralla  jugar tres en ralla
+  tresenralla ---> jugar tres en ralla
   
-  troll        para trolear (en desarrollo)
+  troll ---> para trolear (en desarrollo)
   
-  unban        para desbanear a alguien
+  unban ---> para desbanear a alguien
   
-  vender       vender bienes personales
+  vender ---> vender bienes personales
   
-  vertareas    para ver tareas
+  vertareas ---> para ver tareas
+
+  TOTAL = 100 commandos
 
 Type >help command for more info on a command.
 You can also type >help category for more info on a category.
