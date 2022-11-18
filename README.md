@@ -1,45 +1,201 @@
-# Discord.py bot with commands extension
+# XIMBI'S Discord bot with + 100 commands!
 
-Basic template for a discord bot with the commands extension and [cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html)
+### Enjoy it!
 
-### Pre-Setup
+Este bot ofrece gran cantidad de funcionalidades, es un proyecto de aprendizaje de largo tiempo y es normal que contenga algunos errores tanto como ausencia de controles de errores entre otros comandos que estan en desarrollo, con paciencia y constancia se va creando la elegancia, NO ABUSAR DE EL que me lo banean xd.
 
-If you don't already have a discord bot, click [here](https://discordapp.com/developers/), accept any prompts then click "New Application" at the top right of the screen.  Enter the name of your bot then click accept.  Click on Bot from the panel from the left, then click "Add Bot."  When the prompt appears, click "Yes, do it!" 
-![Left panel](https://i.imgur.com/hECJYWK.png)
+### comandos disponibles(funcionales y semi-funcionales)
 
-Then, click copy under token to get your bot's token. Your bot's icon can also be changed by uploading an image.
+DESPIERTA ---> para los buenos dias
 
-![Bot token area](https://i.imgur.com/da0ktMC.png)
+_8ball ---> la bola de la verdad!
 
-### Setup
+abofetear ---> para abofetear a alguien
 
-Create a file named `.env`
+adivina ---> para adivinar un numero
 
-Add `DISCORD_BOT_SECRET=<your bot token>`
+ahorcado ---> ahorcado
+  
+ascii ---> para texto ascii
+  
+avatar ---> muestra el avatar del usuario
+  
+aviso ---> para avisar a alguien
+  
+bailar ---> para bailarle a alguien(broken)
+  
+balance ---> para ver total de Kickcoins
+  
+balanse ---> para mostrar balance de casino
+  
+ban ---> para banear a alguien
+  
+  bienes ---> tus bienes conseguidos
+  
+  borrartareas ---> para borrar tareas
+  
+  buscar ---> para buscar contendio especifico
+  
+  c ---> texto formato codigo
+  
+  canales ---> para ver los canales
+  
+  candy        Pilla el caramelo antes que nadie!
+  
+  candyboard   El ranking de top candelers!
+  
+  caraocruz    cara o cruz desarrollando metodo banco
+  
+  chatbot      para chatear con el bot
+  
+  clear        Borra el total de mensajes especificados (predet = 1)
+  
+  coinflip     para una competencia del coinflip
+  
+  comprar      accion de comprar en la tienda
+  
+  dab          para hacer un dab
+  
+  deposit      depositar dinero de la cartera al banco
+  
+  desencriptar para desencriptar mensajes encriptados
+  
+  divide       operacion dividir
+  
+  dm           para mandar dm a alguien
+  
+  duelo        Duel 1vs1 del oeste que a la conta de 3 qui apreti avans l'esp...
+  
+  encriptar    para encriptar el mensaje
+  
+  encuesta     para hacer una encuesta
+  
+  enviar       enviar dinero a alguien en especifico
+  
+  fuck         chutar a alguien
+  
+  fuera        puedes echar a alguien pero con contra
+  
+  fumeteo      aver quantos calos aguantas campeeon
+  
+  gamble       Apuesta tu dinero para ganar (o perder ;) )la misma cantidad 
 
-Your .env file should look something like this:
+  hack         para simular hackeo(incompleto)
+  
+  help         Shows this message
+  
+  info         para ver info del usuario
+  
+  lee          beemovie.txt
+  
+  level        
+  
+  levelboard   
+  
+  lugar        definir lugar pieza tresenralla
+  
+  matar        para matar a alguien
+  
+  meme         envia un meme divertido
+  
+  miembros     para mostrar el total de miembros en el canal
+  
+  monopolio    rango de gente mas rica del server
+  
+  morir        para suicidarse
+  
+  mp           maquina medidora de nepes
+  
+  multiplica   operacion multiplicar
+  
+  nasa         para solicitar imagen de la nasa
+  
+  op       
+  
+  pain         en desarrollo
+  
+  passalabomba 
+  
+  pegar        para pegar a alguien
+  
+  pescar       nos vamos de pesca
+  
+  ping         Pingea al bot y devuelve pong y los ms
+  
+  pokequiz     el mas rapido en responder se lleva premio!
+  
+  pregunta     Le haces una pregunta al bot
+  
+  propuesta    hacer propuestas para grupo
+  
+  pv           prueva o verdad
+  
+  rela         para medir porcentaje de relacion en
+  
+  restar       operacion restar
+  
+  retirar      para retirar dinero del banco para ponero a la cartera
+  
+  revista      
+  
+  robar        robar dinero de la cartera
+  
+  rr           Remake de la ruleta russa
+  
+  rrr          Te avates en duelo con el usuario 
+especificado. Que gane el mejor
 
-```
-DISCORD_BOT_SECRET=<Bot token>
-```
+  ruleta       ruleta del casino (en desarrollo)
+  
+  say          Haces que el bot diga algo
+  
+  sayd         Esto es para admins, no deberias haber visto esta descripcion lol
+  
+  sec          secuestrar alguien(broken)
+  
+  shoot        RULETA RUSSAAAAAAAA
+  
+  shot         para tomar ronda de chupitos
+  
+  slot         slots del casino
+  
+  slots        slots del casino
+  
+  soli         para solicitar dinero
+  
+  sorpresa     nada que deberia preocuparte xd
+  
+  spam         para hacer spam
+  
+  spotify      para saber info de spotify de alguien
+  
+  sumar        operacion sumar
+  
+  sup          texto en negrita
+  
+  tarea        para añadir tareas pendeintes
+  
+  tax          para sacar taxas de Kickcoins
+  
+  tiempo       sirve para mostrar el tiempo de la ciudad
+  
+  tienda       tienda del casino
+  
+  tonto        le dices algo y te va a devolver el insulto
+  
+  traducir     traductor de palabras
+  
+  transfer     transferir Kickcoins
+  
+  tresenralla  jugar tres en ralla
+  
+  troll        para trolear (en desarrollo)
+  
+  unban        para desbanear a alguien
+  
+  vender       vender bienes personales
+  
+  vertareas    para ver tareas
 
-After adding your bot token to your .env file, navigate to line 10 in `main.py`. Change  `487258918465306634` to your user id. To get your id, ensure developer mode is enabled (Settings->Appearance->Advanced->Developer Mode) then right-click on yourself and click copy id.
-
-When you hit start everything should startup fine.
-
-### Uptime
-
-So now, all you have to do to keep your bot up is setup something to ping the site your bot made every 5 minutes or so.
-
-Go to [uptimerobot.com](https://uptimerobot.com/) and create an accout if you dont have one.  After verifying your account, click "Add New Monitor".
-
-+ For Monitor Type select "HTTP(s)"
-+ In Friendly Name put the name of your bot
-+ For your url, put the url of the website made for your repl.
-+ Select any alert contacts you want, then click "Create Monitor" 
-![Uptime robot example](https://i.imgur.com/Qd9LXEy.png)
-
-Your bot should now be good to go, with near 100% uptime.
-
-
-
+Type >help command for more info on a command.
+You can also type >help category for more info on a category.
