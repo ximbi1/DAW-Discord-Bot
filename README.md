@@ -88,9 +88,9 @@ ban ---> para banear a alguien
   
   lee ---> beemovie.txt
   
-  level --->     
+  level ---> para pode rver el nivel de usuario
   
-  levelboard --->   
+  levelboard ---> ranquings de niveles(en desarollo)
   
   lugar ---> definir lugar pieza tresenralla
   
