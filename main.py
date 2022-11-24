@@ -644,7 +644,8 @@ async def pescar(ctx):
     '''nos vamos de pesca'''
     num = random.randint(1, 100)
     special = 0
-    if num < 95:
+    #para poner mas dificultad peronerño en 95
+    if num < 75:
         _catch = await catch()
     else:
         _catch = await special_catch()
