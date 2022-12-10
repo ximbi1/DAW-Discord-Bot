@@ -387,7 +387,7 @@ async def canales(ctx):
             await ctx.send(channel)
 
 
-##########info spoty#################
+##########info spoty no funciona holy shit#################
 @client.command()
 async def spotify(ctx, user: discord.Member = None):
     '''para saber info de spotify de alguien'''
@@ -414,7 +414,7 @@ async def spotify(ctx, user: discord.Member = None):
 @client.command()
 async def revista(ctx):
     contents = [
-        "**Esto es la pagina 1!**\nhttps://tenor.com/view/minecraft-boxer-boxing-minecraft-boxer-gif-18025297",
+        "**Esto es la pagina 1!**",
         "**Esto es la pagina 2!**", "**Esto es la pagina 3!**",
         "**Esto es la pagina 4!**", "**Esto es la pagina 5!**",
         "**Esto es la pagina 6!**"
@@ -460,8 +460,6 @@ async def revista(ctx):
 
 #####################para echar a alguien###################
 password = '2203021022'
-
-
 @client.command()
 async def fuera(ctx, member: discord.Member, *, password_check=None):
     '''puedes echar a alguien pero con contra'''
